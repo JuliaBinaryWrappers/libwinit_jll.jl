@@ -1,0 +1,35 @@
+[[libwinit]]
+arch = "aarch64"
+git-tree-sha1 = "9cb6f672aa65ccee0d98304f0531250a434b398c"
+libc = "glibc"
+os = "linux"
+
+    [[libwinit.download]]
+    sha256 = "0da04088dd99e1c88369f71b35cffaa090cbf60fc3e7bf6fe0ea4a37647a6f2a"
+    url = "https://github.com/JuliaBinaryWrappers/libwinit_jll.jl/releases/download/libwinit-v0.17.0+0/libwinit.v0.17.0.aarch64-linux-gnu.tar.gz"
+[[libwinit]]
+arch = "powerpc64le"
+git-tree-sha1 = "bba708427edcb72315a4d2c195290c475c04dcfb"
+libc = "glibc"
+os = "linux"
+
+    [[libwinit.download]]
+    sha256 = "c1bdbc6027c6b0a07d4d503b9c0af44b54c98c62a8c212881880aa55f907e148"
+    url = "https://github.com/JuliaBinaryWrappers/libwinit_jll.jl/releases/download/libwinit-v0.17.0+0/libwinit.v0.17.0.powerpc64le-linux-gnu.tar.gz"
+[[libwinit]]
+arch = "x86_64"
+git-tree-sha1 = "10c0861181d55e9494b8e2d3c4cfc4b874884ce5"
+libc = "glibc"
+os = "linux"
+
+    [[libwinit.download]]
+    sha256 = "bf40924f6ebf005122d94e39bb11246a529872c8991c20a580727a5d588b5865"
+    url = "https://github.com/JuliaBinaryWrappers/libwinit_jll.jl/releases/download/libwinit-v0.17.0+0/libwinit.v0.17.0.x86_64-linux-gnu.tar.gz"
+[[libwinit]]
+arch = "x86_64"
+git-tree-sha1 = "2709d41ac8aaa5ee005b1bf248a70b47da02bd26"
+os = "windows"
+
+    [[libwinit.download]]
+    sha256 = "6f0e7075446fce40a83bcc9cd5d966a8b84e961fffb3a571ee35725bc3bf7bd0"
+    url = "https://github.com/JuliaBinaryWrappers/libwinit_jll.jl/releases/download/libwinit-v0.17.0+0/libwinit.v0.17.0.x86_64-w64-mingw32.tar.gz"
